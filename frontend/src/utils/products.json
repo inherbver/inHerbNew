@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nom": "Baume Réconfortant à la Camomille",
+    "prix": 14.9,
+    "image": "/assets/images/pdct1.jpg",
+    "categorie": "Baumes",
+    "promo": false
+  },
+  {
+    "id": 2,
+    "nom": "Huile Essentielle de Lavande",
+    "prix": 19.9,
+    "image": "/assets/images/pdct1.jpg", 
+    "categorie": "Huiles",
+    "promo": true
+  }
+]
