@@ -1,11 +1,6 @@
-# Normaliser les fichiers texte
-* text=auto
-
-# Forcer LF pour les fichiers spécifiques
-*.js text eol=lf
-*.json text eol=lf
-*.ts text eol=lf
-*.jsx text eol=lf
-*.tsx text eol=lf
-*.md text eol=lf
-*.yml text eol=lf
+git add .* text=auto
+*.js   text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.sh   text eol=lf
+*.bat  text eol=crlf
