@@ -8,7 +8,7 @@ export default function Boutique() {
   return (
     <div className="min-h-screen p-6" style={{ backgroundColor: '#cad5c2' }}>
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8" style={{ color: '#2d2d2d' }}>
+        <h1 className="text-3xl font-bold text-text mb-8">
           Nos Produits Naturels
         </h1>
         

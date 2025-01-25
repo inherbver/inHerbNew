@@ -8,11 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#cad5c2',
-        button: '#9fab97',
-        border: '#9cbac6',
-        text: '#2d2d2d',
-        navbg: '#f2e5d2'
+        background: '#cad5c2',    // Arrière-plans sections
+        primary: '#9fab97',       // Boutons principaux
+        secondary: '#f2e5d2',     // Zones texte informatif
+        border: '#9cbac6',        // Bordures & séparateurs
+        text: '#2d2d2d'           // Texte principal
       }
     },
   },
