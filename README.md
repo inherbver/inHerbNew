@@ -20,16 +20,39 @@ Modern e-commerce solution built with:
 - Environment configuration (.env)
 - Cross-platform line endings setup (.gitattributes)
 
-## Tech Stack
+## 🛠 Technologies
 
-| Component       | Technology              |
-|-----------------|-------------------------|
-| Framework       | React 18                |
-| State Management| Context API             |
-| Styling         | Tailwind CSS 3          |
-| Backend         | Firebase (Auth/Firestore)|
-| Routing         | React Router 6          |
-| Build Tool      | Vite 4                  |
+### Frontend
+- **React** (v18+) - Component-based UI architecture
+- **Tailwind CSS** (v3+) - Utility-first styling with responsive breakpoints:
+  ```jsx
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  ```
+  - Breakpoints: `md` (768px), `lg` (1024px)
+  - Configuration: `tailwind.config.js`
+- **Vite** (v4+) - Build toolchain and dev server
+
+### Data Management
+- **Firebase** (v9+) - Backend services integration:
+  - Auth/Firestore config: `src/utils/firebase.js`
+- **JSON** - Product data structure:
+  ```json
+  {
+    "id": "unique-id",
+    "name": "Product Name",
+    "image": "/images/product-name.webp",
+    "category": "carecategory"
+  }
+  ```
+  Location: `src/utils/products.json`
+
+### Assets Optimization
+- **WebP Images** - Modern format with lossless compression:
+  - Directory: `public/images/`
+  - Resolution: 800x600px (4:3 aspect ratio)
+  - Naming: `product-name-view.webp` (e.g. `herbal-cream-packaging.webp`)
+  - Conversion tool: [Squoosh](https://squoosh.app)
+  - Fallback: Include JPEG versions if needed
 
 ## Installation
 
