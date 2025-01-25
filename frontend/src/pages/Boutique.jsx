@@ -12,11 +12,11 @@ export default function Boutique() {
           Nos Produits Naturels
         </h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {displayProducts.map(product => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+  {displayProducts.map(product => (
+    <ProductCard key={product.id} product={product} />
+  ))}
+</div>
       </div>
     </div>
   );

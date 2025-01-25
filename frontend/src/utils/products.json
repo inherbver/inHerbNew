@@ -1,17 +1,97 @@
 [
   {
     "id": 1,
-    "nom": "Baume Réconfortant à la Camomille",
+    "nom": "Baume à la Camomille",
     "prix": 14.9,
-    "image": "/assets/images/pdct1.jpg",
+    "image": "/images/baume-camomille.jpg",
     "categorie": "Baumes",
     "promo": false
   },
   {
     "id": 2,
-    "nom": "Huile Essentielle de Lavande",
+    "nom": "Huile de Lavande",
     "prix": 19.9,
-    "image": "/assets/images/pdct1.jpg", 
+    "image": "/images/huile-lavande.jpg",
+    "categorie": "Huiles",
+    "promo": true
+  },
+  {
+    "id": 3,
+    "nom": "Tisane Nuit Calme",
+    "prix": 12.9,
+    "image": "/images/tisane-nuit.jpg",
+    "categorie": "Tisanes",
+    "promo": false
+  },
+  {
+    "id": 4,
+    "nom": "Baume au Romarin",
+    "prix": 16.9,
+    "image": "/images/baume-romarin.jpg",
+    "categorie": "Baumes",
+    "promo": true
+  },
+  {
+    "id": 5,
+    "nom": "Gel Douche Menthe",
+    "prix": 9.9,
+    "image": "/images/pdct1.jpg",
+    "categorie": "Soins",
+    "promo": false
+  },
+  {
+    "id": 6,
+    "nom": "Savon Argile Verte",
+    "prix": 7.9,
+    "image": "/images/pdct1.jpg",
+    "categorie": "Savons",
+    "promo": true
+  },
+  {
+    "id": 7,
+    "nom": "Huile d'Argan",
+    "prix": 24.9,
+    "image": "/images/huile-lavande.jpg",
+    "categorie": "Huiles",
+    "promo": false
+  },
+  {
+    "id": 8,
+    "nom": "Tisane Digestion",
+    "prix": 11.9,
+    "image": "/images/tisane-nuit.jpg",
+    "categorie": "Tisanes",
+    "promo": true
+  },
+  {
+    "id": 9,
+    "nom": "Crème Mains Calendula",
+    "prix": 17.9,
+    "image": "/images/baume-camomille.jpg",
+    "categorie": "Soins",
+    "promo": false
+  },
+  {
+    "id": 10,
+    "nom": "Savon au Chanvre",
+    "prix": 8.9,
+    "image": "/images/pdct1.jpg",
+    "categorie": "Savons",
+    "promo": true
+  },
+  {
+    "id": 11,
+    "nom": "Baume Musculaire",
+    "prix": 21.9,
+    "image": "/images/baume-romarin.jpg",
+    "categorie": "Baumes",
+    "promo": false
+  },
+  {
+    "id": 12,
+    "nom": "Huile de Ricin",
+    "prix": 15.9,
+    "image": "/images/huile-lavande.jpg",
     "categorie": "Huiles",
     "promo": true
   }
